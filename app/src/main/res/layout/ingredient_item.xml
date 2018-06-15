@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="ingredient"
+            type="com.alexshr.baking.data.Ingredient" />
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/ingredient_item_name_margin_right"
+            android:text="@{ingredient.ingredientName}"
+            android:textAppearance="@style/text_ingredient"
+            app:layout_constraintEnd_toStartOf="@+id/quantity"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="TextView" />
+
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="@dimen/ingredient_item_quantity_width"
+            android:layout_height="0dp"
+            android:gravity="start|center_vertical"
+            android:text="@{ingredient.quantity+` `+ingredient.measure}"
+            android:textAppearance="@style/text_ingredient"
+            app:layout_constraintBottom_toBottomOf="@+id/name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/name"
+            tools:text="6.0 TBLSP" />
+    </android.support.constraint.ConstraintLayout>
+</layout>

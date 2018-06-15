@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/accent</item>
+
+    </style>
+
+    <style name="text_title" parent="@style/TextAppearance.AppCompat.Title" />
+
+    <style name="text_widget_listItem" parent="@style/TextAppearance.AppCompat.Subhead" />
+
+    <style name="text_widget_title" parent="@style/TextAppearance.AppCompat.SearchResult.Title" />
+
+    <style name="text_recipe_card" parent="@style/TextAppearance.AppCompat.Large" />
+
+    <style name="text_ingredient" parent="@style/TextAppearance.AppCompat.Subhead" />
+
+    <style name="text_step_card" parent="@style/TextAppearance.AppCompat.Subhead" />
+
+    <style name="text_step_description" parent="@style/TextAppearance.AppCompat.Medium" />
+
+    <style name="style_recipe_card" parent="AppTheme">
+        <item name="cardBackgroundColor">?android:attr/colorPrimary</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardCornerRadius">4dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="android:layout_marginTop">-4dp</item>
+        <item name="android:layout_marginStart">-4dp</item>
+        <item name="android:layout_marginEnd">-4dp</item>
+
+    </style>
+
+    <style name="style_step_card" parent="style_recipe_card">
+        <item name="contentPadding">8dp</item>
+
+    </style>
+
+    <style name="root_layout" parent="AppTheme">
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+
+    </style>
+
+</resources>

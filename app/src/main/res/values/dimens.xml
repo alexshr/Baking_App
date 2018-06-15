@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_height">100dp</dimen>
+    <dimen name="widget_width">200dp</dimen>
+    <dimen name="widget_header_bottom_padding">2dp</dimen>
+    <dimen name="widget_padding">2dp</dimen>
+    <dimen name="border_padding">8dp</dimen>
+    <dimen name="fragment_recipe_steps_margin_top">24dp</dimen>
+    <dimen name="ingredient_item_quantity_width">80sp</dimen>
+    <dimen name="ingredient_item_name_margin_right">8dp</dimen>
+    <dimen name="fragment_step_space">12dp</dimen>
+    <dimen name="border_padding_top">12dp</dimen>
+    <dimen name="fragment_navigation_padding_h">100dp</dimen>
+    <dimen name="navigation_height">48dp</dimen>
+    <dimen name="widget_config_activity_title_margin_top">8dp</dimen>
+    <dimen name="widget_config_activity_title_margin_bottom">16dp</dimen>
+</resources>

@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_header_bottom_padding">
+
+    <TextView
+        android:id="@+id/recipeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="@dimen/widget_header_bottom_padding"
+        android:textAppearance="?android:attr/textAppearanceSearchResultTitle"
+        tools:text="Baking Widget" />
+
+    <ListView
+        android:id="@+id/ingredientsLv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

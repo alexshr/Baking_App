@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#FEDBD0</color>
+    <color name="primaryDark">#FBB8AC</color>
+    <color name="accent">#442C2E</color>
+
+    <!--
+        ?android:attr/colorControlHighlight => ?attr/colorControlHighlight => @color/ripple_material_light => #1f000000
+    -->
+
+</resources>

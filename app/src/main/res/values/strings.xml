@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Baking recipes</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="choose_recipe">Chose a recipe</string>
+    <string name="loading">Loading..</string>
+
+</resources>
